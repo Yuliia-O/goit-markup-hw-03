@@ -59,6 +59,15 @@ img {
 
 /* COMPONENTS */
 
+/*Container */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Logo */
 .logo {
   font-family: var(--logo-font-family);
@@ -89,8 +98,36 @@ img {
 
 /* ===========START MAIN PAGE=========== */
 /* Header */
+
+.header .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  justify-content: space-between;
+}
+
+.header-container,
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .nav-list {
+  display: flex;
+  margin-left: 94px;
   color: var(--titles-font-color);
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contact-list {
+  display: flex;
+  /* margin-left: auto; */
+}
+
+.contact-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .nav-list-link {
