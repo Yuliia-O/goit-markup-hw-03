@@ -146,15 +146,16 @@ img {
 /* Hero */
 .hero {
   background-color: var(--dark-background);
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
   color: var(--font-color-dark-background);
 }
 
@@ -163,7 +164,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 
